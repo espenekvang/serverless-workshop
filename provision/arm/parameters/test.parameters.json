@@ -1,0 +1,17 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appInsightsInstrumentationKey": {
+      "reference": {
+          "keyVault": {
+              "id": "/subscriptions/9539bc24-8692-4fe2-871e-3733e84b1b73/resourceGroups/serverless-workshop/providers/Microsoft.KeyVault/vaults/workshop-vault"
+          },
+          "secretName": "workshop-insights-instrumentation-key"
+          }
+      },
+    "appName":{
+      "value": "serverless101-app"
+    }
+}
+}

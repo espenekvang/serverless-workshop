@@ -1,0 +1,1 @@
+powershell -file "upload.ps1" -resourceGroup %1 -appName %2
