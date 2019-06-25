@@ -1,5 +1,5 @@
 # serverless-workshop
-Workshop on Azure Functions
+Workshop on Azure Functions - https://serverless-workshop.gitbook.io/azure/
 
 ## Prerequisites:
 - Azure CLI (https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
